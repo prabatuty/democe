@@ -1,0 +1,5 @@
+CREATE TABLE sample (n INT);
+CREATE TABLE sample (n INT);
+SELECT * FROM absent;
+INSERT INTO absent VALUES (1);
+DROP TABLE absent;

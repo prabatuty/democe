@@ -1,0 +1,5 @@
+CREATE TABLE sample (n INT);
+INSERT INTO sample VALUES (7);
+DROP TABLE sample;
+CREATE TABLE sample (fresh INT);
+SELECT * FROM sample;

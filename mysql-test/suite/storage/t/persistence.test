@@ -1,0 +1,4 @@
+CREATE TABLE persistent (n INT);
+INSERT INTO persistent VALUES (-2147483648), (2147483647);
+--restart
+SELECT * FROM persistent;

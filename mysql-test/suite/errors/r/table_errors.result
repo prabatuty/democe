@@ -1,0 +1,5 @@
+OK CREATE TABLE
+ERROR 1001: Table already exists
+ERROR 1002: Table does not exist
+ERROR 1002: Table does not exist
+ERROR 1002: Table does not exist

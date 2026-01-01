@@ -1,0 +1,4 @@
+#pragma once
+#define MINI_VERSION "@DEMO_VERSION@"
+#define MINI_EDITION "@DEMO_EDITION@"
+#define MINI_MAX_REQUEST @MAX_REQUEST_BYTES@

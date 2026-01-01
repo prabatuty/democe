@@ -1,0 +1,3 @@
+CREATE TABLE numbers (value INT);
+INSERT INTO numbers VALUES (10), (20), (-30);
+SELECT * FROM numbers;

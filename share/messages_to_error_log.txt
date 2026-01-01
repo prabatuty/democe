@@ -1,0 +1,14 @@
+# 8.0 -- demo ranges
+start-error-number 10000
+LOG_READY|Server ready
+LOG_STOPPED|Server stopped
+# 8.4
+start-error-number 11000
+RESERVED|
+LOG_STORAGE_FAILURE|Storage operation failed
+# 9.7
+start-error-number 12000
+LOG_FORMAT_EXAMPLE|Storage format checked
+# innovation
+start-error-number 13000
+LOG_INNOVATION_EXAMPLE|Innovation example log

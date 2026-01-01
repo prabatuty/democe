@@ -1,0 +1,8 @@
+OK CREATE TABLE
+ERROR 1003: Expected a signed 32-bit integer
+ERROR 1003: Expected a signed 32-bit integer
+ERROR 1003: Expected a signed 32-bit integer
+ERROR 1000: Unsupported SQL syntax
+ERROR 1000: Unsupported SQL syntax
+n
+ROWS 0

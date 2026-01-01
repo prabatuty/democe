@@ -1,0 +1,7 @@
+CREATE TABLE sample (n INT);
+INSERT INTO sample VALUES (2147483648);
+INSERT INTO sample VALUES (abc);
+INSERT INTO sample VALUES (1),;
+DELETE FROM sample;
+CREATE TABLE ../escape (n INT);
+SELECT * FROM sample;

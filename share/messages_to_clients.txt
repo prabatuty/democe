@@ -1,0 +1,18 @@
+# 8.0 -- demo ranges, not production MySQL error assignments
+start-error-number 1000
+ER_PARSE_ERROR|Unsupported SQL syntax
+ER_TABLE_EXISTS|Table already exists
+ER_NO_SUCH_TABLE|Table does not exist
+ER_INVALID_INT|Expected a signed 32-bit integer
+ER_STORAGE_IO|Storage file is invalid or inaccessible
+# 8.4
+start-error-number 2000
+ER_REQUEST_TOO_LARGE|SQL request exceeds this branch's limit
+RESERVED|
+ER_RESERVED_PUBLIC_EXAMPLE|Public message after enterprise slot
+# 9.7
+start-error-number 3000
+ER_FORMAT_VERSION|Unsupported data format version
+# innovation
+start-error-number 4000
+ER_INNOVATION_EXAMPLE|Innovation example error

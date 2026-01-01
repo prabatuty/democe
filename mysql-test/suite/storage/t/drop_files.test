@@ -1,0 +1,5 @@
+CREATE TABLE disposable (n INT);
+DROP TABLE disposable;
+--assert-absent disposable.tbl
+--restart
+SELECT * FROM disposable;
