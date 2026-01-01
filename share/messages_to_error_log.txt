@@ -1,6 +1,6 @@
 # 8.0 -- demo ranges
 start-error-number 10000
-LOG_READY|Server ready
+LOG_READY|Server ready for SQL
 LOG_STOPPED|Server stopped
 # 8.4
 start-error-number 11000
