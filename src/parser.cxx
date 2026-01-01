@@ -32,6 +32,7 @@ Query parse(const std::string &sql) {
       if (comma && rest.find_first_not_of(" \t\r\n") == std::string::npos) throw Failure(ER_INVALID_INT);
     }
   } else throw Failure(ER_PARSE_ERROR);
+  if (q.table.size() > 64 || q.column.size() > 64) throw Failure(ER_PARSE_ERROR);
   for (auto *s : {&q.table, &q.column})
     std::transform(s->begin(), s->end(), s->begin(), [](unsigned char c) { return std::tolower(c); });
   return q;
