@@ -16,3 +16,4 @@ ER_FORMAT_VERSION|Unsupported data format version
 # innovation
 start-error-number 4000
 ER_INNOVATION_EXAMPLE|Innovation example error
+ER_CE_TRUNK_PATCH1|Error from CE trunk patch-1
