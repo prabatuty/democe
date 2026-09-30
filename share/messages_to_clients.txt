@@ -17,3 +17,4 @@ ER_FORMAT_VERSION|Unsupported data format version
 start-error-number 4000
 ER_INNOVATION_EXAMPLE|Innovation example error
 ER_CE_TRUNK_PATCH1|Error from CE trunk patch-1
+ER_CE_TRUNK_CONFLICT|Error from CE trunk conflict creating patch
