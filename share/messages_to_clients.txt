@@ -18,3 +18,4 @@ start-error-number 4000
 ER_INNOVATION_EXAMPLE|Innovation example error
 ER_CE_TRUNK_PATCH1|Error from CE trunk patch-1
 ER_CE_TRUNK_CONFLICT|Error from CE trunk conflict creating patch
+ER_CE_VAL2|Error from CE trunk conflict creating patch
